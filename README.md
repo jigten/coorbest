@@ -1,0 +1,3 @@
+# coorbest
+## Bootstrap correlation coefficients and mean differences
+Bootstrap correlation coefficients between a given index and a single control goup along with multiple test groups. Then following estimation statistics framework, bootstrap the mean differences to determine if any test group is better correlated with the index compared to the control group. The result is then backed up using Mann-Whitney U test.
