@@ -1,4 +1,4 @@
-#' Differences between correlation groups with Bootstrap Confidence Intervals
+#' Mean differences of correlation between a single control group and multiple test groups using Bootstrap Confidence Intervals
 #' @param d The list returned after running function bstrapcor
 #' @return A list containing the results of calculating bootstrapped mean difference between control group and all test groups
 #' @export
