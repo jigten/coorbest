@@ -34,8 +34,8 @@ meandifcor <- function(d) {
     grp_arr = c("control")
     test_id = 1
 
-    while (count >= 1) {
-      count = count - 1
+    while (cnt > 1) {
+      cnt = cnt - 1
       grp_arr = c(grp_arr, sprintf("test_%s", test_id))
       test_id = test_id + 1
     }
@@ -60,8 +60,8 @@ meandifcor <- function(d) {
     grp_arr = c("control")
     test_id = 1
 
-    while (count >= 1) {
-      count = count - 1
+    while (cnt > 1) {
+      cnt = cnt - 1
       grp_arr = c(grp_arr, sprintf("test_%s", test_id))
       test_id = test_id + 1
     }
